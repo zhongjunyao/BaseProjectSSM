@@ -47,7 +47,7 @@
 <canvas class="particles-js-canvas-el" width="1147" height="952" style="width: 100%; height: 100%;"></canvas></div>
 
 <!-- scripts -->
-<script src="../resources/admin/login/js/jquery-1.8.0.min.js"></script>
+<script src="../resources/admin/commons/jquery-1.8.0.min.js"></script>
 <script src="../resources/admin/login/js/particles.min.js"></script>
 <script src="../resources/admin/login/js/app.js"></script>
 <script type="text/javascript">

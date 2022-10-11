@@ -47,6 +47,12 @@ public class SystemController {
 		return model;
 	}
 	
+	@RequestMapping(value="/welcome", method=RequestMethod.GET)
+	public ModelAndView welcome(ModelAndView model) {
+		model.setViewName("system/welcome");
+		return model;
+	}
+	
 	/**
 	 * 登录表单提交处理
 	 * @param user
@@ -100,7 +106,7 @@ public class SystemController {
 			return ret;
 		}
 
-		
+		request.getSession().setAttribute("admin", findUserName);
 		ret.put("type", "success");
 		ret.put("msg", "登录成功！");
 		ret.put("data",findUserName);
