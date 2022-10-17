@@ -20,7 +20,7 @@
         	<h1>后台管理系统</h1>
         </div>
         <div class="wu-header-right">
-        	<p><strong class="easyui-tooltip" title="2条未读消息">admin</strong>，欢迎您！</p>
+        	<p><strong class="easyui-tooltip" title="2条未读消息">${admin.username}</strong>，欢迎您！</p>
             <p><a href="#">网站首页</a>|<a href="#">支持论坛</a>|<a href="#">帮助中心</a>|<a href="#">安全退出</a></p>
         </div>
     </div>
@@ -90,7 +90,7 @@
             </div>
             <div title="系统设置" data-options="iconCls:'icon-wrench'" style="padding:5px;">  	
     			<ul class="easyui-tree wu-side-tree">
-                	<li iconCls="icon-chart-organisation"><a href="javascript:void(0)" data-icon="icon-chart-organisation" data-link="layout-3.html" iframe="0">导航标题</a></li>
+                	<li iconCls="icon-chart-organisation"><a href="javascript:void(0)" data-icon="icon-chart-organisation" data-link="../admin/menu/list" iframe="0">菜单管理</a></li>
                     <li iconCls="icon-users"><a href="javascript:void(0)" data-icon="icon-users" data-link="../resources/admin/index/temp/layout-3.html" iframe="0">导航标题</a></li>
                     <li iconCls="icon-user-group"><a href="javascript:void(0)" data-icon="icon-user-group" data-link="../resources/admin/index/temp/layout-3.html" iframe="0">导航标题</a></li>
                     <li iconCls="icon-book"><a href="javascript:void(0)" data-icon="icon-book" data-link="../resources/admin/index/temp/layout-3.html" iframe="0">导航标题</a></li>
